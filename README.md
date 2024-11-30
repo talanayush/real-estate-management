@@ -116,9 +116,9 @@ Welcome to **Tokenized Realty**, a decentralized platform combining **blockchain
 
 ## 🤝 **Contributors**
 - **Ayush Talan**: Blockchain development and ERC-20 smart contracts.  
-- **Saumya Sharma**: Blockchain integration with backend and transaction validation.  
-- **Saurabh Pandey**: Real-time ML model optimization and API development.  
-- **Aryav Singla**: Data collection, preprocessing, and ML model training.  
+- **Saumya Sharma**(https://github.com/saumyasharma03): Blockchain integration with backend and transaction validation.  
+- **Saurabh Pandey**(https://github.com/Pandey-SaurabhP): Real-time ML model optimization and API development.  
+- **Aryav Singla**(https://github.com/Slemon30): Data collection, preprocessing, and ML model training.  
 
 ---
 
