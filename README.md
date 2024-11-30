@@ -1,6 +1,10 @@
-### README: Tokenized Realty - A Decentralized Platform for Fractional Property Ownership  
+Here's an updated version of your `README.txt` considering the specific folders and components you mentioned:
 
-Welcome to **Tokenized Realty**, a revolutionary platform combining **blockchain technology** and **machine learning** to democratize real estate investments. This project addresses challenges like high costs, lack of transparency, and limited accessibility by enabling fractional ownership and real-time property price predictions.
+---
+
+### README: Tokenized Realty - A Decentralized Platform for Fractional Property Ownership
+
+Welcome to **Tokenized Realty**, a decentralized platform combining **blockchain technology** and **machine learning** to democratize real estate investments. This project addresses challenges like high costs, lack of transparency, and limited accessibility by enabling fractional ownership and real-time property price predictions.
 
 ---
 
@@ -39,7 +43,7 @@ Welcome to **Tokenized Realty**, a revolutionary platform combining **blockchain
 
 ## 🚀 **How It Works**
 1. **Tokenization**:  
-   - Enter property details, and the platform generates ERC-721 tokens representing fractional ownership.  
+   - Enter property details, and the platform generates ERC-20 tokens representing fractional ownership.  
    - Smart contracts ensure secure and transparent transactions.  
 
 2. **Price Prediction**:  
@@ -62,11 +66,10 @@ Welcome to **Tokenized Realty**, a revolutionary platform combining **blockchain
 
 ## 📂 **Project Structure**
 ```
-/client          # Frontend code (React.js)
-/server          # Backend code (Node.js, Express.js)
-/contracts       # Solidity smart contracts for ERC-721 tokens
-/ml-model        # ML model scripts for property price prediction
-/database        # MongoDB schemas and configuration
+/client           # Frontend code (React.js)
+/flask_server     # Flask server for integrating ML models and price predictions
+/smart_contract   # Solidity smart contracts for ERC-721 tokenization
+/server           # Backend code for MongoDB integration, API services, and transaction handling
 ```
 
 ---
@@ -77,32 +80,45 @@ Welcome to **Tokenized Realty**, a revolutionary platform combining **blockchain
    git clone https://github.com/your-repo/tokenized-realty.git
    cd tokenized-realty
    ```
-2. Install dependencies for backend and frontend:  
-   ```bash
-   cd server && npm install  
-   cd ../client && npm install  
-   ```
-3. Start the local blockchain using Hardhat:  
+2. Install dependencies for each component:
+
+   - **Frontend (React.js)**:  
+     ```bash
+     cd client && npm install  
+     ```
+   - **Flask Server (ML Integration)**:  
+     ```bash
+     cd flask_server && pip install -r requirements.txt  
+     ```
+   - **Backend (Node.js, MongoDB)**:  
+     ```bash
+     cd server && npm install  
+     ```
+3. Start the **local blockchain** using Hardhat:  
    ```bash
    npx hardhat node
    ```
-4. Deploy smart contracts:  
+4. Deploy **smart contracts**:  
    ```bash
    npx hardhat run scripts/deploy.js --network localhost
    ```
-5. Start the backend server:  
+5. Start the **Flask server** for ML model integration:  
    ```bash
-   cd ../server && npm start
+   cd flask_server && python app.py
    ```
-6. Run the frontend application:  
+6. Start the **backend server**:  
    ```bash
-   cd ../client && npm start
+   cd server && npm start
+   ```
+7. Run the **frontend application**:  
+   ```bash
+   cd client && npm start
    ```
 
 ---
 
 ## 🤝 **Contributors**
-- **Ayush Talan**: Blockchain development and ERC-721 smart contracts.  
+- **Ayush Talan**: Blockchain development and ERC-20 smart contracts.  
 - **Saumya Sharma**: Blockchain integration with backend and transaction validation.  
 - **Saurabh Pandey**: Real-time ML model optimization and API development.  
 - **Aryav Singla**: Data collection, preprocessing, and ML model training.  
@@ -115,3 +131,5 @@ Tokenized Realty brings innovation to real estate by making investments more acc
 ---
 
 Feel free to explore and contribute to this project! For any queries or feedback, please open an issue or reach out. 🌟
+
+---
