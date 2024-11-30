@@ -1,8 +1,5 @@
-Here's an updated version of your `README.txt` considering the specific folders and components you mentioned:
 
----
-
-### README: Tokenized Realty - A Decentralized Platform for Fractional Property Ownership
+Tokenized Realty - A Decentralized Platform for Fractional Property Ownership
 
 Welcome to **Tokenized Realty**, a decentralized platform combining **blockchain technology** and **machine learning** to democratize real estate investments. This project addresses challenges like high costs, lack of transparency, and limited accessibility by enabling fractional ownership and real-time property price predictions.
 
